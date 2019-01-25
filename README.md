@@ -8,13 +8,14 @@ using this app you can
 
 ## things i used
 
-- Firebase
+- Firebase Auth
+- Firebase Database
 - Php Server
 - Glide
 - Retrofit
-- 
+- Google Map
 
 ### screenshot
 
-[![Home](https://github.com/onirban27/eshop/screenshots/Screenshot_1548434063.png)]
+[![Home](https://github.com/onirban27/eshop/blob/master/screenshots/Screenshot_1548434063.png)]
 ```
