@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E2DED5</color>
+    <color name="colorPrimaryDark">#1EB9B9</color>
+    <color name="colorAccent">#158A8A</color>
+    <color name="textColorPrimary">#442C2E</color>
+
+    <!--AppBar-->
+    <color name="categoryGridBackgroundColor">#5CC7C7</color>
+    <color name="cardBackgroundColor">#A5C9DB</color>
+    <color name="colorControlActivated">#99DDD2</color>
+
+    <!--shop-->
+
+    <color name="whiteTransparent">#9a465dc4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#424242</color>
+    <color name="medium_grey">#9E9E9E</color>
+
+    <!--store-->
+    <color name="viewBg">#f1f5f8</color>
+    <color name="product_title">#4c4c4c</color>
+
+    <!--extend-->
+    <color name="grey">#e9ecdf</color>
+    <color name="back">#e199caa1</color>
+
+    <color name="black_70">#b2000000</color>
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+
+    <color name="blue">#a3c8ed</color>
+    <color name="deepblue">#003f7e</color>
+</resources>

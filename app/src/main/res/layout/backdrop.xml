@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Exigent.Button.TextButton"
+        android:id="@+id/storeManageBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:onClick="storeManage"/>
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Exigent.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase History"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Exigent.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wishlist"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"/>
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="?android:attr/textColorPrimary" />
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Exigent.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_label"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:onClick="myAccountClick"/>
+
+    <android.support.design.button.MaterialButton
+        style="@style/Widget.Exigent.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"/>
+
+</merge>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="category_grid_reveal_height">310dp</dimen>
+
+    <!-- Dimens for staggered asymmetric grid layout cards-->
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="card_height">304dp</dimen>
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <!--store-->
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="product_title">20sp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="product_price">18dp</dimen>
+
+    <!--extend-->
+
+    <string name="progress_uploading">Uploading…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>\
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionBarSize">56dp</dimen>
+
+    <!--genaral spacing-->
+    <dimen name="spacing_large">15dp</dimen>
+</resources>

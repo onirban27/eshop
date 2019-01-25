@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "804571156935",
+    "firebase_url": "https://huthat-f9474.firebaseio.com",
+    "project_id": "huthat-f9474",
+    "storage_bucket": "huthat-f9474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804571156935:android:de0c50122618e419",
+        "android_client_info": {
+          "package_name": "com.imaginers.onirban.home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804571156935-djb0tjdosruba9gfunluippfu3nk63mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwhhFQhp__EqBNnancuvzEAku3OEEJGc8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

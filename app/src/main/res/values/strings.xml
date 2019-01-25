@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HutHat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--AppBar-->
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="account_label">My Account</string>
+
+
+    <!--shop manager-->
+
+    <string name="item_title">Palais Garnier</string>
+    <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+    </string>
+
+    <!--store manager-->
+
+    <!--Extend-->
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_done">Finish</string>
+    <!--strings related to auth-->
+
+
+    <string name="loading">Loading…</string>
+    <string name="auth_failed">Authentication failed</string>
+
+    <string name="hint_email">Enter email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back">Back</string>
+    <string name="lbl_forgot_password">Reset Password</string>
+    <string name="forgot_password_msg">Enter Email to Send Request</string>
+
+</resources>

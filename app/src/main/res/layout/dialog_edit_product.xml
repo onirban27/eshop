@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/Theme.AppCompat.Light.DarkActionBar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_large"
+            android:text="Add Product"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <EditText
+            android:id="@+id/et_product_namee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_3"
+            android:hint="Enter Product Name"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:gravity="top"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionBarSize"
+            android:gravity="center_vertical"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/et_product_quantityy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_3"
+                android:layout_weight="1"
+                android:hint="Enter Quantity"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:gravity="top"/>
+            <EditText
+                android:id="@+id/et_product_pricee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="$ Enter Price"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:background="@color/grey_3"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:gravity="top"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/et_product_descriptionn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Description"
+            android:background="@color/grey_3"
+            android:lines="3"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_cancel"
+            style="@style/Button.Accent.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CANCEL" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_submit"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+
+</LinearLayout>
